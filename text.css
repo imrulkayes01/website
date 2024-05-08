@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.all-message-input {
+  max-width: 400px;
+  margin: 0 auto;
+  height: 90vh;
+  background: black;
+}
+
+.cross svg {
+  padding-top: 5px;
+}
+
+.message-box {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.message-box svg:hover {
+  box-shadow: 0 1px 10px white, 0 0px 0px white;
+  border-radius: 50%;
+}
+
+.heding-para {
+  color: white;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.heding-para p {
+  font-size: 15px;
+  line-height: 1.5;
+  padding-top: 1rem;
+}
+
+.name-input p {
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 20px;
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.name-input input {
+  padding: 12px;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+  width: 84%;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.email-input p {
+  padding-top: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 20px;
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.email-input input {
+  padding: 12px;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+  width: 84%;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.pselect {
+  padding-top: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 20px;
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.pselect select {
+  padding: 12px;
+  margin-left: 0rem;
+  margin-top: 0.5rem;
+  width: 100%;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+button {
+  margin-top: 1.7rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  width: 84%;
+  background: #f6c4c8;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
